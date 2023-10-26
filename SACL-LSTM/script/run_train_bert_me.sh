@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 export CUDA_VISIBLE_DEVICES=0
 
-WORK_DIR="/SACL/SACL-LSTM"
+WORK_DIR=$(pwd)
 
 VV="sacl_lstm-text-softmax7"
 
